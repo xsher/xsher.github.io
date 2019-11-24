@@ -23,8 +23,11 @@ description: My day-to-day work and discoveries!
 # List of links in the navigation bar
 navbar-links:
   Home: ""
+  Posts: "posts"
   Projects: "projects"
   About Me: "aboutme"
+
+paginate_path: "/posts/page:num/"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
@@ -44,9 +47,9 @@ title-img: "/img/sherly_pic.jpg"
 # By default, the navigation bar and footer have a light gray background, and the main page
 # has a white background. You can specify a different background colour or a background image
 # for the navigation bar, the main page, and the footer.
-navbar-col: "#EDCCE5"
+navbar-col: "#D7E2FA"
 # navbar-img: "/img/bgimage.png"
-footer-col: "#EDCCE5"
+footer-col: "#D7E2FA"
 # footer-img: "/img/bgimage.png"
 page-col: "#F7E7DE"
 # page-img: "/img/bgimage.png"
