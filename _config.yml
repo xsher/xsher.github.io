@@ -24,8 +24,14 @@ description: My day-to-day work and discoveries!
 navbar-links:
   Home: ""
   Posts: "posts"
-  Projects: "projects"
-  About Me: "aboutme"
+  Projects:
+    - Question-Answering: "https://github.com/xsher/deeplearning-explorations/tree/master/NLP"
+    - Multiple Instance Learning: "https://github.com/xsher/deeplearning-explorations/tree/master/research_projects"
+    - Multitask Learning: "https://github.com/xsher/deeplearning-explorations/tree/master/research_projects"
+    - Hand Digit Recognition with OpenCV: "https://github.com/xsher/data_science/tree/master/computer_vision"
+    - Profiling the End-Host: "https://github.com/xsher/data_science/tree/master/data_mining_for_networks"
+    - Gradient Descent Optimization: "https://github.com/xsher/data_science/tree/master/optimization"
+    - Customized Oware Game: "https://github.com/xsher/oware"
   About Me: "aboutme"
   Resume: "resume/Sherly_CV.pdf"
 
