@@ -2,7 +2,7 @@
 layout: post
 title: Few Shot Learning
 date: '2019-12-02 15:50'
-excerpt: In this post, I will be covering my study on Few-Shot Learning.
+excerpt: In this post, I will be covering my study on Few-Shot Learning and its recent developments.
 comments: true
 ---
 
@@ -26,7 +26,11 @@ In this case, we were experimenting with 3 of the methods in the taxonomy propos
 ## Taxonomy of Few-Shot Learning
 A study was made by Wang et al, 2019 [1] on the methods and developments of Few-Shot Learning. Based on their study, they proposed the following taxonomy for the methods in this field as shown below.
 
-![Taxonomy](images/taxonomy.png)
+<div class="fig figcenter fighighlight">
+  <img src="/images/taxonomy.png">
+  <div class="figcaption"><br>Taxonomy of Few Shot Learning<br>
+  </div>
+</div>
 
 
 ## Developments in Few Shot Learning
@@ -34,27 +38,34 @@ In the recent CVPR'2019, a total of 48 accepted papers are on the topics of zero
 
 ### Embedding Learning Method [Model]
 [Finding Task-Relevant Features for Few-Shot Learning by Category Traversal](http://openaccess.thecvf.com/content_CVPR_2019/html/Li_Finding_Task-Relevant_Features_for_Few-Shot_Learning_by_Category_Traversal_CVPR_2019_paper.html)
+
 Hongyang Li, David Eigen, Samuel Dodge, Matthew Zeiler, Xiaogang Wang
 
 **Summary**
+
 The authors of this paper has proposed introduced a novel Category Traversal Module (CTM) which traverses across the entire support set. Many of the past methods does not view the task as a whole and thus hindering it from learning task-relevant features. With the view, it is able to find dimensions that is most relevant to the task and this is a key factor for few-shot learning problems where little information is provided. Their method takes into account both the intra-class commonality and inter-class uniqueness in the feature space.  CTM module selects the most relevant feature dimensions after traversing both across and within categories which makes metric learning in the subsequent feature space more effective.
 
 **Relevance**
+
 This method could be a direct application to Huawei AI Hackathon challenge. With its ability to better utilise the most useful feature dimensions, it will be able to generate better representations to perform few-shot learning and transfer learning on the new dataset with new categories.
 
 
 ### Model-based Method
 [Few-Shot Adaptive Faster R-CNN](http://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Few-Shot_Adaptive_Faster_R-CNN_CVPR_2019_paper.html)
+
 Tao Wang, Xiaopeng Zhang, Li Yuan, Jiashi Feng
 
 **Summary**
+
 The method proposed in this paper relates to the application on object detection. It aims to address the challenge in insufficient data in target domain, the challenge arising from application of few-shot learning in the domain of object detection and lastly, the risk of overadaptation. The authors introduced a pairing mechanism over source and target features to alleviate the issue of insufficient target domain examples. In addition to alleviating the issue of few examples, they proposed a bi-level module that adapts the source trained detector to the target domain: 1) the split pooling based image level adaptation module uniformly extracts and aligns paired local patch features over locations, with different scale and aspect ratio; 2) the instance level adaptation module semantically aligns paired object features while avoids inter-class confusion. A source model feature regularization (SMFR) is then applied to stabilize the adaptation process of the two modules.
 
 **Relevance**
+
 I am currently working on a research on the topic of **Robustness of Vehicle Re-Identification algorithms on different datasets**. The goal of this research is to study the impact of image level variations such as illuminations,  viewpoints, resolutions and etc. This paper proposed a split pooling method which results in local patch features. With that, it can reflect image-level domain shifts like varied illumination, weather change, etc. This will be an interesting consideration for the research that I am currently working on.
 
 #### Interesting Articles
 [LaSO: Label-Set Operations Networks for Multi-Label Few-Shot Learning](http://openaccess.thecvf.com/content_CVPR_2019/html/Alfassy_LaSO_Label-Set_Operations_Networks_for_Multi-Label_Few-Shot_Learning_CVPR_2019_paper.html)
+
 Amit Alfassy, Leonid Karlinsky. Amit Aides, Joseph Shtok, Sivan Harary, Rogerio Feris, Raja Giryes, Alex M. Bronstein
 
 Multi-label dataset is an interesting domain to study in the field of few-shot learning. Many of the existing few-shot classification methods focuses on single-label data points.
