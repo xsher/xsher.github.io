@@ -26,6 +26,8 @@ navbar-links:
   Posts: "posts"
   Projects: "projects"
   About Me: "aboutme"
+  About Me: "aboutme"
+  Resume: "resume/Sherly_CV.pdf"
 
 paginate_path: "/posts/page:num/"
 #  Resources:

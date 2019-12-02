@@ -27,7 +27,7 @@ In this case, we were experimenting with 3 of the methods in the taxonomy propos
 A study was made by Wang et al, 2019 [1] on the methods and developments of Few-Shot Learning. Based on their study, they proposed the following taxonomy for the methods in this field as shown below.
 
 <div class="fig figcenter fighighlight">
-  <img src="/images/taxonomy.png">
+  <img src="/img/taxonomy.png">
   <div class="figcaption"><br>Taxonomy of Few Shot Learning<br>
   </div>
 </div>
