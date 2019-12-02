@@ -23,6 +23,7 @@ description: My day-to-day work and discoveries!
 # List of links in the navigation bar
 navbar-links:
   Home: ""
+  Resume: "resume/Sherly_CV.pdf"
   Posts: "posts"
   Projects:
     - Question-Answering: "https://github.com/xsher/deeplearning-explorations/tree/master/NLP"
@@ -32,8 +33,7 @@ navbar-links:
     - Profiling the End-Host: "https://github.com/xsher/data_science/tree/master/data_mining_for_networks"
     - Gradient Descent Optimization: "https://github.com/xsher/data_science/tree/master/optimization"
     - Customized Oware Game: "https://github.com/xsher/oware"
-  About Me: "aboutme"
-  Resume: "resume/Sherly_CV.pdf"
+  # About Me: "aboutme"
 
 paginate_path: "/posts/page:num/"
 #  Resources:
