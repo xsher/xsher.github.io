@@ -14,7 +14,7 @@ I am an ex-Software Engineer at Zendesk and ex-Data Scientist both at Zendesk an
 
 I have completed my first year and I am currently at KTH Royal Institute of Technology for my second year. I did an internship with Team SPARKS under the supervision of Prof. Frédéric Precioso and Melissa Sanabria in my first year where I primarly worked with video data for this research project.
 
-View my posts at [POSTS](https://xsher.github.io/posts/) and follow my projects at [PROJECTS](https://xsher.github.io/projects).
+View my posts at [POSTS](https://xsher.github.io/posts/) and follow my projects on my PROJECT tab.
 
 If you are interested to hire an intern or a full-timer right at the start of 2020, feel free to peruse my profile at [LinkedIn](https://www.linkedin.com/in/sherlysherly/).
 
