@@ -59,7 +59,8 @@ navbar-col: "#D7E2FA"
 # navbar-img: "/img/bgimage.png"
 footer-col: "#D7E2FA"
 # footer-img: "/img/bgimage.png"
-page-col: "#F7E7DE"
+# page-col: "#F7E7DE"
+page-col: "#EFEDE7"
 # page-img: "/img/bgimage.png"
 
 # --- Footer options --- #
@@ -97,7 +98,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "xsher.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "https://sherlysherly.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
