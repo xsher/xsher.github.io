@@ -12,11 +12,13 @@ As a software engineer, git tool has became part of my daily tinkering. Github P
 Github has provided a [documentation](https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site) on how to set up custom domains for our github pages. Here, I will summarize into 4 simple steps:
 
 1. Go to the DNS provider of your custom domain and set up the following records:
+```
     Type: A,     Name: @,   Value: 185.199.108.153
     Type: A,     Name: @,   Value: 185.199.109.153
     Type: A,     Name: @,   Value: 185.199.110.153
     Type: A,     Name: @,   Value: 185.199.111.153
     Type: CNAME, Name; www, Value: <Github Page URL>
+```
 
    To verify: `dig <your custom domain>` and you should observe the A records corresponding to your changes.
 
