@@ -1,6 +1,6 @@
 ---
 layout: page
-title: '><'
+title: 'WELCOME'
 subtitle: Daily bits with coding and maching learning
 use-site-title: true
 ---
